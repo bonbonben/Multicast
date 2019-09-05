@@ -1,0 +1,9 @@
+Step 1: Change the ip of group.imr_interface.s_addr in multicast_client.c to your own local ip address
+Step 2: Change the ip of localInterface.s_addr in multicast_server.c to your own local ip address
+Step 3: Open multiple terminals to enter the respective directories of different clients
+Step 4: Enter "gcc multicast_server.c -o server" at server to compile
+Step 5: Enter "gcc multicast_client.c -o client" at each client to compile
+Step 6: Enter "./server" at server to execute
+Step 7: Enter "./client" at clients to execute
+Step 8: Enter "file" and then enter filename at server to send file to multiple clients
+Step 9: Enter "quit" to exit
